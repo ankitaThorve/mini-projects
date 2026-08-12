@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgb(97, 186, 215) 0%,
+    rgb(103, 158, 176) 35%,
+    rgb(23, 92, 172) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
