@@ -30,4 +30,14 @@ function renderCalendar() {
     calendarDays.innerHTML += `<div class="${isToday ? "today" : ""}">${d}</div>`;
   }
 }
+
+function prevMonth() {
+  date.setMonth(date.getMonth() - 1);
+  renderCalendar();
+}
+
+function nextMonth() {
+  date.setMonth(date.getMonth() + 1);
+  renderCalendar();
+}
 renderCalendar();
