@@ -35,7 +35,7 @@ body {
 }
 
 .calendar header button {
-  background: rgb(35, 62, 180);
+  background: rgb(53, 85, 225);
   border: none;
   padding: 13px 13px;
   border-radius: 50%;
@@ -54,8 +54,25 @@ body {
   text-align: center;
 }
 
-.day-names div{
+.day-names div {
   padding: 10px 0;
   font-weight: bold;
   color: rgb(53, 58, 58);
+}
+
+.days div {
+  padding: 10px;
+  margin: 2px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.days div:hover{
+  background: rgb(53, 85, 225);
+  color: #fff;
+}
+
+.today{
+  background: rgb(237, 233, 8);
 }
