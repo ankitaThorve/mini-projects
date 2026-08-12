@@ -68,11 +68,16 @@ body {
   transition: background 0.3s;
 }
 
-.days div:hover{
+.days div:hover {
   background: rgb(53, 85, 225);
   color: #fff;
 }
 
-.today{
+.today {
   background: rgb(237, 233, 8);
+}
+
+.empty:hover {
+  background: #fff;
+  color: #fff;
 }
