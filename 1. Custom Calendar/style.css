@@ -19,8 +19,8 @@ body {
 }
 
 .calendar {
-  width: 350px;
-  height: 370px;
+  width: 450px;
+  height: 450px;
   background: #fff;
   border-radius: 18px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
@@ -78,6 +78,7 @@ body {
 }
 
 .empty:hover {
-  background: #fff;
+  background: #fff !important;
   color: #fff;
+  /* cursor: none; */
 }
