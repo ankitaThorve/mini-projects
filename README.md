@@ -25,7 +25,7 @@ mini-projects/
 │  ├── index.html
 │  ├── style.css
 │  └── script.js
-├─ project-1/
+├─ project-2/
 │  ├── index.html
 │  ├── style.css
 │  └── script.js
@@ -34,7 +34,7 @@ mini-projects/
 ```
 ---
 
-## 👤 Author
+### 👤 Author
 
 **Ankita Thorve**
 
